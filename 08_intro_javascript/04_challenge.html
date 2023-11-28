@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Challenge 04</h1>
+    <script>
+        // cars array with the cars
+        var cars = ['toyota', 'honda', 'mazda', 'mitsubishi', 'tesla', 'lexus'];
+        
+        // log first item
+        console.log (cars[0]);
+
+        // log last item using length property
+        var lastItem = cars.length - 1;
+        console.log (cars[lastItem]);
+
+        // adding benz to array using length property
+        cars [cars.length] = 'mercedes-benz';
+        var newLastItem = cars.length-1;
+        console.log (cars[newLastItem]);
+
+        // looping through all array items
+        for (var i=0; i < cars.length; i++) {
+            console.log (cars[i]);
+        }
+
+    </script>
+</body>
+</html>
